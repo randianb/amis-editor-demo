@@ -8,7 +8,25 @@ amis 可视化编辑器, 在线体验：https://aisuda.github.io/amis-editor-dem
 
 1. `npm i` 安装依赖
 3. `npm run dev` 等编译完成后本地打开页面看效果。
+<!-- i18n-runtime
+vue-style-loader
+css-loader
+postcss-loader
+sass-loader
+@svgr/webpack
+amis-theme-editor-helper
+amis-ui@6.6.0
+amis
+pdfjs
+pdfjs-dist -->
 
+pnpm install params-replace-loader
+pnpm install babel-loader css-loader  postcss-loader @svgr/webpack
+pnpm install vue-style-loader 
+pnpm install sass-loader
+pnpm install @babel/runtime
+pnpm install html-loader ts-loader
+pnpm install amis-theme-editor-helper i18n-runtime
 ## 历史版本预览地址
 1. [6.0.0(2023-12-29)](https://aisuda.github.io/amis-editor-demo/demo-6.0.0/index.html)
 3. [5.6.2(2023-10-31)](https://aisuda.github.io/amis-editor-demo/demo-5.6.2/index.html)
